@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+body{
+    font-family: 'Noto serif', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+.jumbotron {
+    font-size: 20px;
+    padding: 20px;
+    background-color: orange;
+    text-align: right;
+    color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+ }
+ 
+ aside {
+    float: right;
+    width: 20%;
+    padding-left: 10px;
+ }
+ * {
+    box-sizing: border-box;
+ }
+ main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+ .image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    padding-left: 20px;
+    padding-right: 20px;
+ } 
+
+.kotak{
+    
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.kiri{
+    
+    line-height: 300px;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.kanan{
+    
+    line-height: 300px;
+    width: 40%;
+    height: 100%;
+    float: right
+}
+
+.makanan{
+    text-align: center;
+    background-color: coral;
+    font-weight: bold;
+    padding: 1px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.teks{
+    text-align: justify;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+
+
+nav li {
+    display: inline;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav {
+    background-color: sienna;
+    padding: 10px;
+    
+}
+
+footer{
+    background-color: sienna;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
